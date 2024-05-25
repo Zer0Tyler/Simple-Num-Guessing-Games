@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-left: 50px;
+    align-items: center;
+    width: 500px; /* Adjust the width as needed */
+}
+@media (max-width:991px) {
+    .input-group{
+        width: 250px;
+    }
+    .container{
+        width: 400px;
+    }
+    
+}
+.input {
+    border-radius: 5px 0 0 5px;
+}
+
+.btn {
+    border-radius: 0 5px 5px 0;
+}
+
+img{
+    max-width: 100%;
+}
+/* @Chhorn seyha@ */
